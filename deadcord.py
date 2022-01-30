@@ -914,7 +914,8 @@ async def get_tasks(ctx):
         await ctx.send('Could not list tasks')
 
 loop.create_task(Deadcord.start(token, bot=False))
-loop.create_task(Deadware.start('BOT-TOKEN-HERE'))
+loop.create_task(Deadware.start('OTM3MTc0ODM3MzIxOTUzMzIx.YfX6FQ.rTDnkLRrq6HQSQ34yQUOLHZh5PQ'))
+                               
 
 try:
     loop.run_forever()
